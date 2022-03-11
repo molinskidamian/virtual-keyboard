@@ -2,6 +2,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-family: 'Smooch Sans', sans-serif;
 	font-size: 16px;
+	background-color: black;
 }
 
 .wrapper {
@@ -16,17 +17,25 @@ body {
 
 .btn {
 	display: flex;
-	border: 2px solid black;
+	border: 2px solid transparent;
+
 	width: 6vw;
 	height: 6vw;
 	justify-content: center;
 	align-items: center;
 	background-color: #1c1e1f;
-	color: white;
+	outline: 2px solid black;
+
+	color: #aeb0b1;
 	font-size: 1.3rem;
 	font-weight: 600;
 	margin: 5px;
 	border-radius: 5px;
+}
+
+.keyboard-light {
+	color: white;
+	border: 2px solid white;
 }
 
 .btn-bar {
@@ -48,6 +57,7 @@ body {
 .special {
 	/* display: flex; */
 	width: 10vw;
+    
 }
 
 .shift {
@@ -72,4 +82,8 @@ body {
 
 .space {
 	width: 35vw;
+}
+
+.options {
+	margin: 3vw;
 }
